@@ -4,6 +4,7 @@ body {
     font-size: 15px;
     font-family: 'Poppins', Arial, sans-serif;
     color: hsl(229, 6%, 66%);
+    font-weight: 400;
 }
 
 section {
@@ -16,5 +17,53 @@ section {
     width: 83%;
     display: flex;
     flex-direction: column;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h2, h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+/* About Styles */
+
+h1 {
+    font-size: 1.6em;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+/* Features Styles */
+
+article {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    box-shadow: 0px 10px 20px 0px hsl(212, 40%, 90%);
+}
+
+.features-wrapper {
+    width: 82%;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+#features p {
+    font-size: 0.8em;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: flex-end;
 }
